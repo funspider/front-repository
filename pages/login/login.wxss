@@ -1,0 +1,7 @@
+/* pages/login/login.wxss */
+.container{display:flex;flex-direction:column;padding:0;height:100%;align-items:center;justify-content:space-between;box-sizing:border-box;padding-top: 100rpx;}
+.inputView{line-height:45px;border-bottom:1px solid #999}
+.title{width:80%;font-weight:700;font-size:30px;text-align: center;padding-bottom: 100rpx;}
+.inputText{display:inline-block;line-height:45px;padding-left:10px;margin-top:11px;color:#888;font-size:14px}
+.line{border:1px solid #ccc;border-radius:20px;float:right;margin-top:9px;color:#888;background: #ffc66c;}
+.loginBtn{margin-top:40px;border-radius:10px;color: #888; border:1px solid #ccc;background: #ffc66c;}

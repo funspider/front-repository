@@ -1,0 +1,15 @@
+<view class="container">
+	<view class="title">登录</view>
+	<form catchsubmit="login">
+		<view class="inputView">
+			<input class="inputText" placeholder="请输入手机号" maxlength="11" name="phone" bindblur="phone" />
+		</view>
+		<view class="inputView">
+			<input class="inputText" placeholder="请输入验证码" maxlength="6" name="code" />
+			<button class="line" disabled="{{disabled}}" size="mini" bindtap="sendcode">{{codebtn}}</button>
+		</view>
+		<view class="loginBtnView">
+			<button class="loginBtn" formType="submit">登录</button>
+		</view>
+	</form>
+</view>
