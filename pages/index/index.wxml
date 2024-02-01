@@ -1,0 +1,5 @@
+<!--pages/user/user.wxml-->
+
+<button bindtap="getData">点击获取救护车</button>
+
+

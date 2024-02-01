@@ -1,0 +1,45 @@
+{
+  "permission": {
+    "scope.userLocation": {
+      "desc": "您的位置信息将用于获取附近的服务"
+    }
+  },
+  
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/user/user",
+    "pages/bus/bus"
+  ],
+  
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "急救",
+    "navigationBarTextStyle": "black",
+    "backgroundColor": "#FFF"
+  },
+  "style": "v2",
+  "tabBar": {
+    "list": [{
+      "pagePath": "pages/index/index",
+      "iconPath": "static/images/index.png",
+      "text": "首页",
+      "selectedIconPath": "static/images/index1.png"
+    },
+    {
+      "pagePath": "pages/bus/bus",
+      "iconPath": "static/images/bus.png",
+      "text": "转运",
+      "selectedIconPath": "static/images/bus1.png"
+    },
+    {
+      "pagePath": "pages/user/user",
+      "iconPath": "static/images/user.png",
+      "text": "用户",
+      "selectedIconPath": "static/images/user1.png"
+    }
+  ]
+  
+  }
+}
