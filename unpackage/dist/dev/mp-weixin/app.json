@@ -1,0 +1,38 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/cate/cate",
+    "pages/my/my"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "急救",
+    "navigationBarBackgroundColor": "#C00000",
+    "backgroundColor": "#ffffff"
+  },
+  "tabBar": {
+    "selectedColor": "#C00000",
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "首页",
+        "iconPath": "static/tabBarimage/ambulance.png",
+        "selectedIconPath": "static/tabBarimage/ambulance-active.png"
+      },
+      {
+        "pagePath": "pages/cate/cate",
+        "text": "订单",
+        "iconPath": "static/tabBarimage/translate.png",
+        "selectedIconPath": "static/tabBarimage/translate-active.png"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "text": "个人",
+        "iconPath": "static/tabBarimage/person.png",
+        "selectedIconPath": "static/tabBarimage/person-active.png"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

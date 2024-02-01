@@ -1,0 +1,1 @@
+<view class="login-cotainer"><uni-icons vue-id="2db90e82-1" type="contact-filled" size="100" color="#afafaf" bind:__l="__l"></uni-icons><button class="btn-login" type="primary" open-type="getUserInfo" data-event-opts="{{[['getuserinfo',[['getUser',['$event']]]]]}}" bindgetuserinfo="__e">一键登录</button><text class="tips-text">登录后查看</text></view>
